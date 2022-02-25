@@ -1,0 +1,42 @@
+var userName = ' Quentin ';
+    if (userName = 'Quentin') {
+        console.log(`Hello, ${userName}!`)
+    } else {
+        console.log('Hello!')
+    } 
+
+var userQuestion = 'How old am I ';
+    console.log(userQuestion + userName) 
+
+var randomNumber = Math.floor(Math.random() * 8);
+
+var eightBall = '';
+
+num0 = 'It is certain';
+num1 = 'It is decidedly so';
+num2 = 'Reply hazy try again';
+num3 = 'Cannot predict now';
+num4 = 'Do not count on it';
+num5 = 'My sources say no';
+num6 = 'Outlook not so good';
+num7 = 'Signs point to yes';
+
+var eightBall = (randomNumber = num2);
+if (randomNumber === 0) {
+    console.log(num0);
+} else if (randomNumber === 1) {
+    console.log(num1)
+} else if (randomNumber === 2) {
+    console.log(num2)
+} else if (randomNumber === 3) {
+    console.log(num3)
+} else if (randomNumber === 4) {
+    console.log(num4)
+} else if (randomNumber === 5) {
+    console.log(num5)
+} else if (randomNumber === 6) {
+    console.log(num6)
+} else if (randomNumber === 7) {
+    console.log(num7) 
+};
+console.log(eightBall);
